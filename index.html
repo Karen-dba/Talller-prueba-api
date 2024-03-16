@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica api</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<nav class="navbar navbar-default" id="nav_bar">
+   <div class="container">
+       <div class="navbar-header">
+           <a href="index.html" class="navbar-brand navbar-link weather">
+               <img src="Images/letra-k.png" class="img-responsive" id="logo" alt=""><strong>k-tube</strong>
+           </a>
+    </div>
+   </div>   
+       
+    
+</nav> 
+
+<div class="jumbotron" style="margin-bottom:0px; background-color:#d02222; color:rgb(12, 12, 12);">
+    <h2 class="text-center" style="font-size:40px; font-weight:600;">Encuentra la mejor musica y videos</h2>
+</div>
+
+<div class="container" style="height:650px;">
+    <div class="row" >
+        <div class="col-md-12" style="margin-bottom:10px;">
+            <h3 class="text-center text-primary" style="color: #d02222;">Ingresa el nombre del tema de tu interes</h3>
+            <span id="error" class="text-center"></span>
+        </div>
+        
+        <div class="row form-group form-inline" id="cityDiv">
+           
+            <input type="text" name="city" id="city" class="form-control" placeholder="Buscar" >
+            <button id="submitCity" class="btn btn-primary">Ir</button>
+        </div>
+
+    </div>
+    
+    
+    <div id="showWeather"></div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row text-center" style="padding-top:30px;">
+            <p style="color:rgb(12, 12, 12)">Copyright &copy; K-tube</p>
+        </div>
+    </div>
+</div>
+
+
+ 
+     
+  
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>        
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
+     
+<script src="Ktube.js"></script>   
+      
+</body>
+</html>

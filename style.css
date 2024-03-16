@@ -1,0 +1,189 @@
+body{
+    font-family: 'Tangerine', serif;
+    background-color: #f2efef;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar{
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: #f2efef;
+    border: none;
+}
+
+.weather{
+    color: rgb(12, 12, 12) !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav_list > li > a{
+    color: rgb(12, 12, 12)!important;
+    font-weight: 500;
+}
+
+#logo{
+    max-height: 42px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+
+#colHeadText1{
+    color: white;
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+#colHeadText2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+ul#list_item{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#cityDiv{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type='text']{
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitCity{
+    background-color: #d02222;
+    color: rgb(12, 12, 12);
+    height: 40px;
+    font-weight: bold;
+}
+
+#errorCity{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+    background-color: #d02222;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    bottom: 0;
+}
+
+#showWeather{
+    width: 60%;
+    margin: auto;
+    background-color:#e1dfdf;
+    color: rgb(12, 12, 12);
+    border-radius: 25px;
+}
+
+table{
+    color: #333333;
+    font-family: Helvetical, Arial, sans-serif;
+}
+
+th{
+    background: #d02222;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+td{
+    background: #FAFAFA;
+    text-align: center;
+    font-size: 18px;
+}
+
+#welcome-paragraph{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 12px 25px 40px 25px;
+    letter-spacing: 0.5px;
+}
+
+#rowDiv{
+    margin: auto;
+    width: 100%;
+}
+
+#colDesc h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#colDesc{
+    border: 1px solid #e7e7e7;
+    margin: 0 auto;
+    height: auto;
+}
+
+.info-icon{
+    text-align: center;
+}
+
+.info-icon i{
+    font-size: 60px;
+    margin-top: 10px;
+    color: #d02222
+    ;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
